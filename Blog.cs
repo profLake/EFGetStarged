@@ -1,0 +1,9 @@
+using System;
+
+public class Blog
+{
+    public int BlogId { get; set; }
+    public string BlogUrl { get; set; }
+
+    public List<Post> Posts { get; } = new();
+}
