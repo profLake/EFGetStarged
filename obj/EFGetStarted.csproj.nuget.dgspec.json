@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\musli\\dev\\c#\\EFGetStarted\\EFGetStarted.csproj": {}
+    "/home/art/dev/c#/EFGetStarted/EFGetStarted.csproj": {}
   },
   "projects": {
-    "C:\\Users\\musli\\dev\\c#\\EFGetStarted\\EFGetStarted.csproj": {
+    "/home/art/dev/c#/EFGetStarted/EFGetStarted.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\musli\\dev\\c#\\EFGetStarted\\EFGetStarted.csproj",
+        "projectUniqueName": "/home/art/dev/c#/EFGetStarted/EFGetStarted.csproj",
         "projectName": "EFGetStarted",
-        "projectPath": "C:\\Users\\musli\\dev\\c#\\EFGetStarted\\EFGetStarted.csproj",
-        "packagesPath": "C:\\Users\\musli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\musli\\dev\\c#\\EFGetStarted\\obj\\",
+        "projectPath": "/home/art/dev/c#/EFGetStarted/EFGetStarted.csproj",
+        "packagesPath": "/home/art/.nuget/packages/",
+        "outputPath": "/home/art/dev/c#/EFGetStarted/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\musli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/art/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.6, )"
@@ -58,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }
